@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('font/SFPRODISPLAYBLACKITALIC.OTF') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('font/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('font/SFPRODISPLAYHEAVYITALIC.OTF') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('font/SFPRODISPLAYLIGHTITALIC.OTF') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('font/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('font/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('font/SFPRODISPLAYSEMIBOLDITALIC.OTF') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('font/SFPRODISPLAYTHINITALIC.OTF') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('font/SFPRODISPLAYULTRALIGHTITALIC.OTF') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+}
+body {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+h1 {
+    font-family: 'SF Pro Display';
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'SF Pro Display';
+    font-weight: normal;
+}
+.heading{
+    padding-left: 25%;
+    padding-right: 25%;
+    line-height: 1.2em;
+    margin-bottom: 3em;
+}
+.naslov{
+    font-weight: 500;
+    line-height: 1em;
+}
+.mini-naslov{
+    font-weight: 500;
+}
+.framework{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.prikazi{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.min-naslov{
+    width: 50%;
+}
+.link{
+    width: 50%;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-size: 20px;
+    font-weight: 700;
+}
+.pop-up{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+.crta-div{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.ispod{
+    text-decoration: underline;
+}
