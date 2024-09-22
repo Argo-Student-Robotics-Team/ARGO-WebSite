@@ -60,6 +60,9 @@
     font-weight: 200;
     font-style: italic;
 }
+*{
+    font-weight: lighter;
+}
 body {
     font-family: 'SF Pro Display', sans-serif;
 }
@@ -71,11 +74,11 @@ h1 {
 
 p {
     font-family: 'SF Pro Display';
-    font-weight: normal;
+    font-weight: lighter;
 }
 .heading{
     padding-left: 25%;
-    padding-right: 25%;
+    padding-right: 40%;
     line-height: 1.2em;
     margin-bottom: 3em;
 }
