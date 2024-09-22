@@ -2,11 +2,11 @@ function popup(event) {
     event.preventDefault();
     var link = event.target;
     var div = link.closest('.prikazi').nextElementSibling;
-    if (div.classList.contains('show')) {
-        div.classList.remove('show');
+    if (div.style.display === 'block') {
+        div.style.display = 'none';
         link.innerHTML = '+';
     } else {
-        div.classList.add('show');
+        div.style.display = 'block';
         link.innerHTML = '-';
     }
 }

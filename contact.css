@@ -109,20 +109,13 @@ a{
     font-size: 20px;
     font-weight: 700;
 }
-.pop-up {
-    visibility: hidden;
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-out, opacity 0.5s ease-out, visibility 0.5s;
+.pop-up{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 30px;
+    line-height: 1.5em;
 }
-
-.pop-up.show {
-    visibility: visible;
-    opacity: 1;
-    max-height: 100px;
-}
-
 .crta-div{
     margin-top: -20px;
     margin-bottom: -20px;
