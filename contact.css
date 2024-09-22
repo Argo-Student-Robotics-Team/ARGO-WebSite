@@ -120,7 +120,7 @@ a{
 .pop-up.show {
     visibility: visible;
     opacity: 1;
-    max-height: 500px; /* Adjust this value based on your content's height */
+    max-height: 100px;
 }
 
 .crta-div{
