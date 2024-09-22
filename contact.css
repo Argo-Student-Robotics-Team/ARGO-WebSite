@@ -109,13 +109,25 @@ a{
     font-size: 20px;
     font-weight: 700;
 }
-.pop-up{
+.pop-up {
     display: none;
     padding-left: 2%;
     padding-right: 2%;
     margin-bottom: 30px;
     line-height: 1.5em;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
 }
+
+.pop-up.show {
+    display: block;
+    max-height: 200px;
+    opacity: 1;
+}
+
+
 .crta-div{
     margin-top: -20px;
     margin-bottom: -20px;
