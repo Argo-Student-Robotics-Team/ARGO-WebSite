@@ -190,13 +190,11 @@ hr.solid {
 }
 
 .values_sekcija2 img{
-    height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
 .values_sekcija2_invert img{
-    height: 100%;
     width: 100%;
     object-fit: cover;
 }
