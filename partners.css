@@ -254,7 +254,7 @@ a{
         flex: 1 1 100%; /* 1 image per row */
     }
     .image-container img{
-        width: 80%;
+        max-width: 80%;
     }
 }
 
