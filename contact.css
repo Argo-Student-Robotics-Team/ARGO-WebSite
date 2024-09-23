@@ -71,10 +71,13 @@ h1 {
     font-family: 'SF Pro Display';
     font-weight: lighter;
 }
-
+h2{
+    color: rgb(77, 77, 77);
+}
 p {
     font-family: 'SF Pro Display';
     font-weight: lighter;
+    color: rgb(77, 77, 77);
 }
 .heading{
     padding-left: 25%;
