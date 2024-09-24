@@ -72,16 +72,22 @@
 body {
     font-family: 'SF Pro Display', sans-serif;
 }
-
 h1 {
     font-family: 'SF Pro Display';
     font-weight: lighter;
+    font-size: 3vw; /* Adjust this value as needed */
+}
+
+h2 {
+    font-size: 2vw; /* Adjust this value as needed */
 }
 
 p {
     font-family: 'SF Pro Display';
     font-weight: lighter;
+    font-size: 1.3vw; /* Adjust this value as needed */
 }
+
 .heading{
     padding-left: 25%;
     padding-right: 25%;
@@ -103,14 +109,13 @@ p {
     margin-right: 20%;
     margin-top: 12px;
     margin-bottom: 12px;
-    font-size: 1.3em;
 }
 
 .natpis{
-    font-size: 18px;
+    
 }
 .broj span{
-    font-size: 12px;
+    
 }
 .statistics-container {
     display: flex;
@@ -128,9 +133,6 @@ p {
 
 .statistic-block p {
     margin-top: 10px;
-}
-.statistic-block p {
-    font-size: 1em;
 }
 .statistic-block span {
     font-size: 1em;
@@ -180,13 +182,13 @@ hr.solid {
 .values_sekcija2{
     width: 33%;
     margin-right: 12%;
-    height: 15em;
+    height: fit-content;
 }
 
 .values_sekcija2_invert{
     width: 33%;
     margin-left: 12%;
-    height: 15em;
+    height: fit-content;
 }
 
 .values_sekcija2 img{
@@ -208,7 +210,6 @@ hr.solid {
 .values_sekcija p {
     color: #fff;
 }
-
 
 
 @media (max-width: 768px) {

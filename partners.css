@@ -200,6 +200,10 @@ a{
     margin-right: 20%;
     margin-left: 5%;
 }
+#velike .image-container{
+    background-color: red;
+    margin-left: 30%;
+}
 #slika3{
     margin-right: 2.5em;
     margin-left: 2.5em;
