@@ -213,6 +213,21 @@ hr.solid {
 
 
 @media (max-width: 768px) {
+    h1 {
+        font-family: 'SF Pro Display';
+        font-weight: lighter;
+        font-size: 6vw; /* Adjust this value as needed */
+    }
+    
+    h2 {
+        font-size: 4vw; /* Adjust this value as needed */
+    }
+    
+    p {
+        font-family: 'SF Pro Display';
+        font-weight: lighter;
+        font-size: 3vw; /* Adjust this value as needed */
+    }
     .naslov {
         margin-left: 5%;
         margin-right: 5%;
@@ -260,6 +275,21 @@ hr.solid {
 }
 
 @media (max-width: 480px) {
+    h1 {
+        font-family: 'SF Pro Display';
+        font-weight: lighter;
+        font-size: 6vw; /* Adjust this value as needed */
+    }
+    
+    h2 {
+        font-size: 4vw; /* Adjust this value as needed */
+    }
+    
+    p {
+        font-family: 'SF Pro Display';
+        font-weight: lighter;
+        font-size: 3vw; /* Adjust this value as needed */
+    }
     .naslov {
         margin-left: 5%;
         margin-right: 5%;
@@ -274,6 +304,7 @@ hr.solid {
     }
     .values_naslov{
         text-align: center;
+        margin-bottom: -20px;
     }
     .values img{
         margin-left: auto;
