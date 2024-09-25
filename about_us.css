@@ -7,9 +7,6 @@
     padding: 0;
     font-weight: lighter;
 }
-body{
-    box-sizing: border-box;
-}
 @font-face {
     font-family: 'SF Pro Display';
     src: url('font/SFPRODISPLAYBLACKITALIC.OTF') format('opentype');
@@ -78,17 +75,17 @@ body {
 h1 {
     font-family: 'SF Pro Display';
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 1.8rem;
 }
 
 h2 {
-    font-size: 1.7vw;
+    font-size: 1.4rem;
 }
 
 p {
     font-family: 'SF Pro Display';
     font-weight: lighter;
-    font-size: 1.1vw;
+    font-size: 1rem;
 }
 
 
@@ -208,7 +205,6 @@ hr.solid {
     color: #fff;
 }
 
-/*
 @media (max-width: 768px) {
     h1 {
         font-family: 'SF Pro Display';
@@ -352,4 +348,4 @@ hr.solid {
         order: 1;
     }
 
-}*/
+}
