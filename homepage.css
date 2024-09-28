@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-weight: lighter;
 }
 :root {
     --blue: #0a84ff;
@@ -203,7 +204,7 @@ h1{
 }
 .i{
     margin-top: 10%;
-    width: 50%;
+    width: 40%;
 }
 .dab{
     padding-right: 50%;
@@ -223,6 +224,7 @@ h1{
     width: 50%;
     display: flex;
     align-items: stretch;
+    min-height: fit-content;
     height: 40vh;
 }
 .badabim{
