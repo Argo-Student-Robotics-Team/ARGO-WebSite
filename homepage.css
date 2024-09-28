@@ -77,8 +77,7 @@ h1{
     padding-right: 20%;
     padding-top: 1%;
     padding-bottom: 1%;
-    min-height: fit-content;
-    height: 50vh;
+    height: fit-content;
     background-color: #E5E5EA;
 }
 .news a{
