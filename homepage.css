@@ -53,7 +53,7 @@ h1{
 .prva button{
     background-color: #0D60AF;
     width: 25%;
-    height: 15%;
+    height: fit-content;
     border: 1px;
     color: white;
     font-size: 0.8vw;
@@ -128,8 +128,7 @@ h1{
 .join{
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 2vh;
-    background-color: #d6d6d6;
+    padding-top: 1%;
 }
 .flex{
     display: flex;
@@ -164,7 +163,7 @@ h1{
     width: 30%;
 }
 #raf{
-    width: 20%;
+    width: 18%;
 }
 #backpack{
     width: 9.5%;
@@ -186,6 +185,64 @@ h1{
 }
 #suma{
     width: 5%;
+}
+.forma {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-image: url("./slike/pozadina.webp");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 40%;
+    color: #fff;
+    height: fit-content;
+}
+.cont{
+    display: flex;
+}
+.i{
+    margin-top: 10%;
+    width: 50%;
+}
+.dab{
+    padding-right: 50%;
+    margin-bottom: 5%;
+}
+.join-us{
+    background-color: #0D60AF;
+    width: 25%;
+    height: fit-content;
+    border: 1px;
+    color: white;
+    font-size: 0.8vw;
+    padding: 0.8em;
+    cursor: pointer;
+}
+.ii{
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+    height: 40vh;
+}
+.badabim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.bold{
+    font-weight: bold;
+}
+.titule{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titula{
+    margin-bottom: 3%;
 }
 
 @media (max-width: 768px) {
