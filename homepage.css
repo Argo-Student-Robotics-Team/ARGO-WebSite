@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --blue: #0a84ff;
+    --navy: #0e2439;
+}
+
+h1{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.banner{
+    background-color: black;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img{
+    width: 8vw;
+    height: 8vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.logo{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.div-naslov{
+    margin-top: 25%;
+    padding-right: 20%;
+    margin-bottom: 2vh;
+}
+.content{
+
+}
+.who{
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    height: fit-content;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.prva{
+    width: 50%;
+}
+.prva p{
+    padding-right: 5%;
+}
+.prva button{
+    background-color: #0D60AF;
+    width: 25%;
+    height: 15%;
+    border: 1px;
+    color: white;
+    font-size: 0.8vw;
+    padding: 0.8em;
+    cursor: pointer;
+}
+.druga{
+    width: 50%;
+    justify-content: right;
+}
+.druga img{
+    object-fit: cover;
+    width: 90%;
+    float: right;
+}
+.news{
+    margin: 0;
+    padding: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    min-height: fit-content;
+    height: 50vh;
+    background-color: #E5E5EA;
+}
+.news a{
+    color: black;
+}
+.vest{
+    width: 33%;
+    float: right;
+}
+#vest3{
+    float: right;
+}
+.vest img{
+    width: 90%;
+}
+#vest-naslov{
+    margin-bottom: 3vh;
+}
+.vesti-container{
+    display: flex;
+    width: 100%;
+}
+.datum{
+    font-size: 0.8vw;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.kategorija{
+    color: #0a84ff;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-size: 0.9vw;
+}
+#vest2{
+    padding-left: 3%;
+}
+#vest3 img{
+    padding-left: 10%;
+    margin-right: 0;
+}
+#vest3 p{
+    padding-left: 10%;
+}
+.opis{
+    padding-right: 10%;
+    margin-bottom: 2%;
+}
+.join{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2vh;
+    background-color: #d6d6d6;
+}
+.flex{
+    display: flex;
+    margin-bottom: 2%;
+}
+.jedan{
+    width: 50%;
+}
+.dva{
+    width: 50%;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    padding-top: 0.5%;
+}
+.partner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part{
+    object-fit: contain;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+.part img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#etf{
+    width: 30%;
+}
+#raf{
+    width: 20%;
+}
+#backpack{
+    width: 9.5%;
+}
+#owf{
+    width: 10%;
+}
+#europe-space{
+    width: 12%;
+}
+#osra{
+    width: 15%;
+}
+#digital{
+    width: 9%;
+}
+#robotics{
+    width: 3.5%;
+}
+#suma{
+    width: 5%;
+}
+
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    
+    h2 {
+        font-size: 4vw;
+    }
+    
+    p {
+        font-size: 3vw;
+    }
+    .banner img{
+        height: 10vh;
+        width: 10vh;
+    }
+    .prva button{
+        width: 50%;
+        font-size: 2vh;
+    }
+    .who{
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: fit-content;
+    }
+}
+
+@media (max-width: 480px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    h1 {
+        font-size: 4vw;
+    }
+    
+    h2 {
+        font-size: 2vw;
+    }
+    
+    p {
+        font-size: 3vw;
+    }
+    .banner img{
+        height: 10vh;
+        width: 10vh;
+    }
+    .who{
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: fit-content;
+    }
+    .prva button{
+        font-size: 2vw;
+        margin-top: 1vh;
+        height: 3vh;
+    }
+    .druga{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .druga img{
+        width: 100%;
+    }
+}
