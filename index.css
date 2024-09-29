@@ -33,6 +33,7 @@ h1{
     margin-top: 25%;
     padding-right: 20%;
     margin-bottom: 2vh;
+    width: 31ch;
 }
 .content{
 
@@ -58,6 +59,7 @@ h1{
     border: 1px;
     color: white;
     font-size: 0.8vw;
+    font-weight: 500;
     padding: 0.8em;
     cursor: pointer;
 }
