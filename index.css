@@ -161,6 +161,9 @@ h1{
     max-width: 100%;
     max-height: 100%;
 }
+#partneri1{
+    flex-wrap: wrap;
+}
 #etf{
     width: 30%;
 }
@@ -256,22 +259,67 @@ h1{
         padding: 0;
     }
     h1 {
-        font-size: 6vw;
+        font-size: large;
     }
-    
+
     h2 {
-        font-size: 4vw;
+        font-size: medium;
     }
-    
+
     p {
-        font-size: 3vw;
+        font-size: small;
     }
     .banner img{
         width: 20%;
     }
+    
     .prva button{
-        width: 50%;
-        font-size: 2vh;
+        font-size: 0.7em;
+        margin-top: 1%;
+        width: fit-content;
+    }
+    .div-naslov{
+        margin-top: 15%;
+    }
+    .who{
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: fit-content;
+    }
+    .join{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #etf{
+        width: 40%;
+    }
+    #raf{
+        width: 30%;
+    }
+    #backpack{
+        width: 15%;
+    }
+    #owf{
+        width: 18%;
+    }
+    #europe-space{
+        width: 18%;
+    }
+    #osra{
+        width: 20%;
+    }
+    #digital{
+        width: 18%;
+    }
+    #robotics{
+        width: 8%;
+    }
+    #suma{
+        width: 11%;
+    }
+    .prva button{
+        width: fit-content;
+        font-size: 0.8em;
     }
     .who{
         padding-left: 5%;
@@ -404,15 +452,15 @@ h1{
         margin: 0;
     }
     h1 {
-        font-size: 4vw;
+        font-size: large;
     }
     
     h2 {
-        font-size: 2vw;
-    }
-    
+        font-size: medium;
+    } 
+
     p {
-        font-size: 3vw;
+        font-size: small;
     }
     .banner img{
         /* height: 10vh;
@@ -423,10 +471,12 @@ h1{
         padding-right: 5%;
         min-height: fit-content;
     }
+    .div-naslov{
+        padding-right: 20%;
+    }
     .prva button{
-        font-size: 2vw;
-        margin-top: 1vh;
-        height: 3vh;
+        font-size: 0.6em;
+        width: fit-content;
     }
     .druga{
         display: flex;
@@ -435,5 +485,42 @@ h1{
     }
     .druga img{
         width: 100%;
+    }
+    .join{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #etf{
+        width: 50%;
+    }
+    #raf{
+        width: 40%;
+    }
+
+    .part{
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+    #backpack{
+        width: 15%;
+    }
+    #owf{
+        width: 18%;
+    }
+    #europe-space{
+        width: 18%;
+    }
+    #osra{
+        width: 20%;
+    }
+    #digital{
+        width: 20%;
+    }
+    #robotics{
+        width: 8%;
+    }
+    #suma{
+        width: 12%;
     }
 }
