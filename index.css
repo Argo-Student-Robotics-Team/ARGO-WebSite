@@ -16,16 +16,44 @@ h1{
     background-color: black;
     height: fit-content;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
     object-fit: cover;
+
+    padding-bottom: 2em;
 }
+
 .banner img{
     width: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+.application-dates, .application-information
+{
+    color: white;
+    text-align: center;
+}
+
+.application-dates
+{
+    font-weight: 100;
+    padding-top: 0.5em;
+}
+
+.application-information
+{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.banner .join-us
+{
+    width: 100%;
+}
+
 .logo{
     margin-top: 3vh;
     margin-bottom: 3vh;
@@ -252,6 +280,8 @@ h1{
 .titula{
     margin-bottom: 3%;
 }
+
+
 
 @media (max-width: 768px) {
     *{
