@@ -83,6 +83,11 @@ p {
     font-size: 1.1vw;
 }
 
+button
+{
+    font-family: 'SF Pro Display';
+}
+
 @media (max-width: 768px) {
     h1 {
         font-family: 'SF Pro Display';
@@ -95,6 +100,13 @@ p {
     }
     
     p {
+        font-family: 'SF Pro Display';
+        font-weight: lighter;
+        font-size: 3vw;
+    }
+
+    button
+    {
         font-family: 'SF Pro Display';
         font-weight: lighter;
         font-size: 3vw;
