@@ -42,6 +42,9 @@ h1 {
 .tekst{
     margin-bottom: 1%;
 }
+#manji{
+    margin-bottom: 0%;
+}
 #poslednji{
     margin-bottom: 3%;
 }
@@ -65,6 +68,7 @@ h1 {
     margin-top: 2%;
     margin-bottom: 2%;
     font-weight: 500;
+    color: var(--navy);
 }
 .link{
     width: 50%;
@@ -144,5 +148,8 @@ a{
     }
     .tekst{
         margin-bottom: 3%;
+    }
+    .mini-naslov{
+        margin-bottom: 5%;
     }
 }
