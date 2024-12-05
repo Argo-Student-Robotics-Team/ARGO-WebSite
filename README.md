@@ -1,7 +1,7 @@
 # Argo Website
 This repository contains the official Argo Student Robotics Team website.
 
-## Contributer
+## Contributors
 - Luka Mihailović (maintainer)
 - Hristina Boharev
 - Petar Nikolić
