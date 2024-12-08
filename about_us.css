@@ -163,28 +163,28 @@ hr.solid {
 
 .values_sekcija1{
     width: 33%;
-    margin-left: 12em;
-    margin-right: 3em;
+    margin-left: 15em;
+    margin-right: 7em;
 }
 
 .values_sekcija1_invert{
     width: 33%;
-    margin-right: 12em;
-    margin-left: 3em;
+    margin-right: 15em;
+    margin-left: 7em;
 
 
 }
 
 .values_sekcija2{
     width: 33%;
-    margin-right: 12em;
+    margin-right: 15em;
     
     /* height: fit-content; */
 }
 
 .values_sekcija2_invert{
     width: 33%;
-    margin-left: 12em;
+    margin-left: 15em;
     height: fit-content;
 }
 
@@ -205,7 +205,6 @@ hr.solid {
 
 .values_sekcija p {
     color: #fff;
-    text-align: justify;
     padding-top: 2em;
 }
 
