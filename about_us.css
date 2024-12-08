@@ -117,10 +117,11 @@ p {
     margin-bottom: 2vh;
 }
 .statistic-block {
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 2%;
+    margin-right: 1%;
 }
 
 .statistic-block p {
@@ -225,8 +226,8 @@ hr.solid {
         font-size: 3vw;
     }
     .naslov {
-        margin-left: 15%;
-        margin-right: 5%;
+        margin-left: 12%;
+        margin-right: 12%;
     }
 
     .values_sekcija{
@@ -309,8 +310,8 @@ hr.solid {
         width: 90%;
     }
     .naslov {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 12%;
+        margin-right: 12%;
     }
     .values_sekcija{
         flex-direction: column;
