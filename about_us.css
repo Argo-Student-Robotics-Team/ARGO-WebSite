@@ -99,18 +99,15 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 1%;
-    margin-bottom: 1vh;
+    margin: 1em 18em 1em 18em;
 }
 
 .natpis{
-    margin-bottom: 1vh;
+    margin-bottom: 1.2em;
 }
-.broj span{
-    
-}
+
+
+
 .statistics-container {
     display: flex;
     justify-content: space-around;
@@ -152,57 +149,63 @@ hr.solid {
 
 .values_naslov {
     text-align: center;
-    padding-top: 1%;
+    padding-top: 0.6%;
     color: #fff;
-    margin-bottom: 3vh;
+    padding-bottom: 2.4em;
 }
 
 .values_sekcija {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3vh;
+    padding-bottom: 2em ;
 }
 
 .values_sekcija1{
     width: 33%;
-    margin-left: 12%;
+    margin-left: 12em;
+    margin-right: 3em;
 }
 
 .values_sekcija1_invert{
     width: 33%;
-    margin-right: 12%;
+    margin-right: 12em;
+    margin-left: 3em;
+
+
 }
 
 .values_sekcija2{
     width: 33%;
-    margin-right: 12%;
-    height: fit-content;
+    margin-right: 12em;
+    
+    /* height: fit-content; */
 }
 
 .values_sekcija2_invert{
     width: 33%;
-    margin-left: 12%;
+    margin-left: 12em;
     height: fit-content;
 }
 
 .values_sekcija2 img{
     width: 100%;
-    object-fit: cover;
+    height: 95%;
 }
 
 .values_sekcija2_invert img{
     width: 100%;
-    object-fit: cover;
+    height: 95%;
 }
 
 .values_h2 {
     color: #fff;
     text-align: center;
-    margin-bottom: 2vh;
 }
 
 .values_sekcija p {
     color: #fff;
+    text-align: justify;
+    padding-top: 2em;
 }
 
 @media (max-width: 768px) {
@@ -222,9 +225,10 @@ hr.solid {
         font-size: 3vw;
     }
     .naslov {
-        margin-left: 5%;
+        margin-left: 15%;
         margin-right: 5%;
     }
+
     .values_sekcija{
         flex-direction: column;
     }
