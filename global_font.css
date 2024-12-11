@@ -12,7 +12,7 @@
 @font-face {
     font-family: 'SF Pro Display';
     src: url('font/SFPRODISPLAYBOLD.OTF') format('opentype');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -40,7 +40,7 @@
 @font-face {
     font-family: 'SF Pro Display';
     src: url('font/SFPRODISPLAYREGULAR.OTF') format('opentype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -64,23 +64,72 @@
     font-weight: 200;
     font-style: italic;
 }
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('font/SF-Pro-Text-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('font/SF-Pro-Text-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('font/SF-Pro-Text-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('font/SF-Pro-Text-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('font/SF-Pro-Text-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('font/SF-Pro-Text-SemiboldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
 body {
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'SF Pro Text', sans-serif;
 }
 h1 {
     font-family: 'SF Pro Display';
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 34pt;
+    line-height: 41pt;
+    letter-spacing: 0.37px;
 }
-
 h2 {
-    font-size: 1.7vw;
+    font-family: 'SF Pro Display';
+    font-weight: lighter;
+    font-size: 28pt;
+    line-height: 34pt;
+    letter-spacing: 0.36px;
+}
+h3 {
+    font-family: 'SF Pro Display';
+    font-weight: lighter;
+    font-size: 22pt;
+    line-height: 28pt;
+    letter-spacing: 0.35px;
 }
 
 p {
-    font-family: 'SF Pro Display';
-    font-weight: lighter;
-    font-size: 1.1vw;
+    font-family: 'SF Pro Text';
+    font-size: 17pt;
+    line-height: 22pt;
+    letter-spacing: -0.41px;
 }
 
 button
@@ -88,7 +137,7 @@ button
     font-family: 'SF Pro Display';
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     h1 {
         font-family: 'SF Pro Display';
         font-weight: lighter;
@@ -124,4 +173,4 @@ button
     p {
         font-size: 3vw;
     }
-}
+} */
