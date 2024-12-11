@@ -25,5 +25,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
     animateValue("members", 0, 24, 2000);
     animateValue("faculties", 0, 4, 2000);
-    animateValue("projects", 0, 2, 2000);
+    animateValue("projects", 0, 4, 2000);
 });
