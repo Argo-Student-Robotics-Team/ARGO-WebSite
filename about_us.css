@@ -5,7 +5,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-weight: lighter;
+    /* font-weight: lighter; */
 }
 @font-face {
     font-family: 'SF Pro Display';
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'SF Pro Display';
     src: url('font/SFPRODISPLAYBOLD.OTF') format('opentype');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -45,7 +45,7 @@
 @font-face {
     font-family: 'SF Pro Display';
     src: url('font/SFPRODISPLAYREGULAR.OTF') format('opentype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -69,12 +69,13 @@
     font-weight: 200;
     font-style: italic;
 }
+
 body {
     font-family: 'SF Pro Display', sans-serif;
 }
 h1 {
     font-family: 'SF Pro Display';
-    font-weight: lighter;
+    /* font-weight: lighter; */
     font-size: 2vw;
 }
 
@@ -84,7 +85,7 @@ h2 {
 
 p {
     font-family: 'SF Pro Display';
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 1.1vw;
 }
 
