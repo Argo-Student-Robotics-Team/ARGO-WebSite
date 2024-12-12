@@ -103,21 +103,27 @@
 body {
     font-family: 'SF Pro Text', sans-serif;
 }
-h1 {
+
+.largeTitle
+{
     font-family: 'SF Pro Display';
     font-weight: lighter;
     font-size: 34pt;
     line-height: 41pt;
     letter-spacing: 0.37px;
 }
-h2 {
+
+.title1
+{
     font-family: 'SF Pro Display';
     font-weight: lighter;
     font-size: 28pt;
     line-height: 34pt;
     letter-spacing: 0.36px;
 }
-h3 {
+
+.title2
+{
     font-family: 'SF Pro Display';
     font-weight: lighter;
     font-size: 22pt;
@@ -125,17 +131,20 @@ h3 {
     letter-spacing: 0.35px;
 }
 
-p {
+.subheadlineBold
+{
     font-family: 'SF Pro Text';
-    font-size: 17pt;
-    line-height: 22pt;
-    letter-spacing: -0.41px;
+    font-weight: 600;
+    font-size: 15pt;
+    line-height: 20pt;
+    letter-spacing: -0.5px;
 }
 
-button
-{
-    font-family: 'SF Pro Display';
-}
+
+
+
+
+
 
 /* @media (max-width: 768px) {
     h1 {
