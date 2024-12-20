@@ -131,8 +131,95 @@ body {
     letter-spacing: 0.35px;
 }
 
-.subheadlineBold
-{
+.caption2 {
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 11pt;
+    line-height: 13pt;
+    letter-spacing: 0.07px;
+}
+
+.caption1 {
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 16pt;
+    letter-spacing: 0px;
+}
+
+.footnote {
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 13pt;
+    line-height: 18pt;
+    letter-spacing: -0.08px;
+}
+
+.subheadline {
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 15pt;
+    line-height: 20pt;
+    letter-spacing: -0.24px;
+}
+
+.callout {
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 16pt;
+    line-height: 21pt;
+    letter-spacing: -0.32px;
+}
+
+.body {
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 17pt;
+    line-height: 22pt;
+    letter-spacing: -0.41px;
+}
+
+.headline {
+    font-family: 'SF Pro Text';
+    font-weight: 600;
+    font-size: 17pt;
+    line-height: 22pt;
+    letter-spacing: -0.41px;
+}
+
+.title3 {
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 20pt;
+    line-height: 25pt;
+    letter-spacing: 0.38px;
+}
+
+.caption2Bold {
+    font-family: 'SF Pro Text';
+    font-weight: 600;
+    font-size: 11pt;
+    line-height: 13pt;
+    letter-spacing: 0.06px;
+}
+
+.caption1Bold {
+    font-family: 'SF Pro Text';
+    font-weight: 500;
+    font-size: 12pt;
+    line-height: 16pt;
+    letter-spacing: 0px;
+}
+
+.footnoteBold {
+    font-family: 'SF Pro Text';
+    font-weight: 600;
+    font-size: 13pt;
+    line-height: 18pt;
+    letter-spacing: -0.08px;
+}
+
+.subheadlineBold {
     font-family: 'SF Pro Text';
     font-weight: 600;
     font-size: 15pt;
@@ -140,7 +227,61 @@ body {
     letter-spacing: -0.5px;
 }
 
+.calloutBold {
+    font-family: 'SF Pro Text';
+    font-weight: 600;
+    font-size: 16pt;
+    line-height: 21pt;
+    letter-spacing: -0.32px;
+}
 
+.bodyBold {
+    font-family: 'SF Pro Text';
+    font-weight: 600;
+    font-size: 17pt;
+    line-height: 22pt;
+    letter-spacing: -0.41px;
+}
+
+.headlineBold {
+    font-family: 'SF Pro Text';
+    font-weight: 600;
+    font-size: 17pt;
+    line-height: 22pt;
+    letter-spacing: -0.41px;
+}
+
+.title3Bold {
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 20pt;
+    line-height: 25pt;
+    letter-spacing: 0.38px;
+}
+
+.title2Bold {
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 22pt;
+    line-height: 28pt;
+    letter-spacing: 0.35px;
+}
+
+.title1Bold {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 28pt;
+    line-height: 34pt;
+    letter-spacing: 0.36px;
+}
+
+.largeTitleBold {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 34pt;
+    line-height: 41pt;
+    letter-spacing: 0.37px;
+}
 
 
 
