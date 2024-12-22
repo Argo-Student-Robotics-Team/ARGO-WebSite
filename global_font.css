@@ -282,7 +282,19 @@ body {
     line-height: 41pt;
     letter-spacing: 0.37px;
 }
-
+#margin{
+    margin-bottom: 2%;
+}
+#margin1{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#margin2{
+    margin-bottom: 1%;
+}
+#margin3{
+    margin-bottom: 1%;
+}
 
 
 
