@@ -4,8 +4,10 @@
 }
 
 hr{
-    height: 0.01%;
+    border-top: 0;
+    color: var(--light-gray);
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -40,13 +42,9 @@ h1 {
 }
 .min-naslov{
     width: 50%;
+    color: var(--argoBlue)
 }
-.mini-naslov{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-weight: 500;
-    color: var(--navy);
-}
+
 .link{
     width: 50%;
     text-align: right;
@@ -54,7 +52,7 @@ h1 {
 }
 a{
     text-decoration: none;
-    color: rgb(179, 179, 179);
+    color: var(--argoBlue);
 }
 .pop-up {
     display: none;

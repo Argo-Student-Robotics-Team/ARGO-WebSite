@@ -1,7 +1,39 @@
 :root {
     --blue: #0a84ff;
     --navy: #0e2439;
+
+    /* COLORS (iOS System Colors) */
+    --light-red:    #ff3b30;
+    --light-orange: #ff9500;
+    --light-yellow: #ffcc00;
+    --light-green:  #34c759;
+    --light-teal:   #5ac8fa;
+    --light-blue:   #0d60af;
+    --light-indigo: #5856d6;
+    --light-gray:   #8e8e93;
+    --light-gray02: #aeaeb2;
+    --light-gray03: #c7c7cc;
+    --light-gray04: #d1d1d6;
+    --light-gray05: #e5e5ea;
+    --light-gray06: #f2f2f7;
+
+    --argoBlue:     #0e2439;
+
+    --dark-red:     #ff453a;
+    --dark-orange:  #ff9f0a;
+    --dark-yellow:  #ffd60a;
+    --dark-green:   #32d74b;
+    --dark-teal:    #64d2ff;
+    --dark-blue:    #0a84ff;
+    --dark-indigo:  #5e5ce6;
+    --dark-gray:    #8e8e93;
+    --dark-gray02:  #636366;
+    --dark-gray03:  #48484a;
+    --dark-gray04:  #3a3a3c;
+    --dark-gray05:  #2c2c2e;
+    --dark-gray06:  #1c1c1e;
 }
+
 @font-face {
     font-family: 'SF Pro Display';
     src: url('font/SFPRODISPLAYBLACKITALIC.OTF') format('opentype');
@@ -64,42 +96,49 @@
     font-weight: 200;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'SF Pro Text';
     src: url('font/SF-Pro-Text-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'SF Pro Text';
     src: url('font/SF-Pro-Text-RegularItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'SF Pro Text';
     src: url('font/SF-Pro-Text-Medium.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'SF Pro Text';
     src: url('font/SF-Pro-Text-MediumItalic.otf') format('opentype');
     font-weight: 500;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'SF Pro Text';
     src: url('font/SF-Pro-Text-Semibold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'SF Pro Text';
     src: url('font/SF-Pro-Text-SemiboldItalic.otf') format('opentype');
     font-weight: 600;
     font-style: italic;
 }
+
 body {
     font-family: 'SF Pro Text', sans-serif;
 }
