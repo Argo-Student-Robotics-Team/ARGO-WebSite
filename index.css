@@ -9,8 +9,8 @@
 }
 
 h1{
-    font-size: 1.5vw;
-    font-weight: 500;
+    /* font-size: 1.5vw;
+    font-weight: 500; */
 }
 .banner{
     background-color: black;
@@ -130,16 +130,10 @@ h1{
     display: flex;
     width: 100%;
 }
-.datum{
-    font-size: 0.8vw;
-    margin-top: 2%;
-    margin-bottom: 1%;
-}
-.kategorija{
+#kategorija{
     color: #0a84ff;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
-    font-size: 0.9vw;
 }
 #vest2{
     padding-left: 3%;
@@ -166,6 +160,9 @@ h1{
 }
 .jedan{
     width: 50%;
+}
+#link{
+    margin-top: 1%;
 }
 .dva{
     width: 50%;
@@ -243,14 +240,12 @@ h1{
     margin-bottom: 5%;
 }
 .join-us{
-    background-color: #0D60AF;
-    width: 25%;
+    background-color: var(--light-blue);
+    width: 23%;
     height: fit-content;
     border: 1px;
     color: white;
-    font-size: 0.8vw;
-    padding: 0.8em;
-    font-weight: 500;
+    padding: 0.5em;
     cursor: pointer;
 }
 .ii{
@@ -280,7 +275,9 @@ h1{
 .titula{
     margin-bottom: 3%;
 }
-
+#skill{
+    margin-bottom: 5%;
+}
 
 
 @media (max-width: 768px) {
