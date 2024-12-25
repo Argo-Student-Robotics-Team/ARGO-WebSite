@@ -9,3 +9,6 @@ The development must follow the design which is present on Figma.
 - Luka Mihailović (Lead Maintainer)
 - Hristina Boharev
 - Petar Nikolić
+
+## Future Laravel Dev
+- Stefan Crkvenjakov
