@@ -10,5 +10,5 @@ The development must follow the design which is present on Figma.
 - Hristina Boharev
 - Petar Nikolić
 
-## Future Laravel Dev
+### Future Laravel Dev
 - Stefan Crkvenjakov
