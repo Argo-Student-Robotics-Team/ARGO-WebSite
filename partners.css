@@ -103,9 +103,11 @@ hr {
 }
 figure{
     flex-direction: column wrap;
+    text-align: center;
 }
 figcaption{
-    margin-bottom: 4%;
+    margin-bottom: 6%;
+    margin-top: 2%;
 }
 #etf-slika{
     width: 65%;
