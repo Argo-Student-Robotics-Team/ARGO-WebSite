@@ -55,7 +55,7 @@ hr {
     width: 80%;
     display: flex;
     justify-content:center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 .part{
@@ -314,6 +314,9 @@ a{
     }
     .dugme{
         padding: 1.5%;
+    }
+    #margin4{
+        margin-bottom: 5%;
     }
 }
 
