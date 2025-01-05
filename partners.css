@@ -8,22 +8,6 @@
     padding-left: 6%;
     padding-right: 6%;
 }
-.fodder{
-    display: flex;
-    margin-bottom: 1%;
-    width: fit-content;
-    align-items: center;
-    justify-content: center;
-}
-#space{
-    margin-left: 6px;
-}
-#fod{
-    color: var(--light-gray);
-}
-#fod1{
-    font-weight: 500;
-}
 hr {
     width: 100%;
     height: 1px;
@@ -129,6 +113,9 @@ figcaption{
 }
 #suma-slika{
     width: 25%;
+}
+#ubg-slika{
+    width: 70%;
 }
 /*.partneri {
     background-color: var(--light-gray05);
@@ -259,10 +246,6 @@ a{
     transform: scale(1.1);
 }
 @media (max-width: 1200px) {
-    .fodder{
-        margin-bottom: 5%;
-        margin-left: 3%;
-    }
     #etf, #raf{
         width: 30%;
     }
