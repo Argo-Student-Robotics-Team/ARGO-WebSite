@@ -338,40 +338,13 @@ body {
 
 
 
-/* @media (max-width: 768px) {
-    h1 {
-        font-family: 'SF Pro Display';
-        font-weight: lighter;
-        font-size: 6vw;
-    }
-    
-    h2 {
-        font-size: 4vw;
-    }
-    
-    p {
-        font-family: 'SF Pro Display';
-        font-weight: lighter;
-        font-size: 3vw;
-    }
-
-    button
-    {
-        font-family: 'SF Pro Display';
-        font-weight: lighter;
-        font-size: 3vw;
+ @media (max-width: 1000px) {
+    #margin3{
+        margin-bottom: 1%;
     }
 }
 @media (max-width: 480px) {
-    h1 {
-        font-size: 6vw;
+    #margin3{
+        margin-bottom: 5%;
     }
-    
-    h2 {
-        font-size: 4vw;
-    }
-    
-    p {
-        font-size: 3vw;
-    }
-} */
+}
