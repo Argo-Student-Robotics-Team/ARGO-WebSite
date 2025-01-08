@@ -1,7 +1,3 @@
-:root {
-    --blue: #0a84ff;
-    --navy: #0e2439;
-}
 *{
     margin: 0;
     padding: 0;
@@ -18,23 +14,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 1em 25em 1em 26em;
 }
 
+.naslov{
+    padding-top: 1%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 1%;
+}
 .natpis{
-    margin-bottom: 1.2em;
+    margin-bottom: 3%;
 }
-
-
-
 .statistics-container {
     display: flex;
     justify-content: space-around;
-    width: 80%;
-    margin-top: 1%;
+    width: 100%;
     text-align: center;
-    margin-bottom: 2vh;
 }
 .statistic-block {
     width: 27.3%;
@@ -50,16 +45,20 @@
 .statistic-block span {
     /* color: #C2C3C1; */
     color: var(--dark-gray06);
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 16pt;
+    letter-spacing: 0px;
 }
 
-
 .broj{
-    color: var(--blue);
+    color: var(--light-blue);
 }
 
 
 hr.solid {
-    border-top: 0.1vh solid #bbb;
+    border: 0.1px solid #bbb;
     width: 100%;
 }
 
@@ -73,19 +72,22 @@ hr.solid {
     text-align: center;
     padding-top: 0.6%;
     color: #fff;
-    padding-bottom: 2.4em;
+    margin-bottom: 4%;
 }
 
 .values_sekcija {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 4em ;
+    padding-bottom: 3%;
 }
-
 .values_sekcija1{
     width: 33%;
     margin-left: 15em;
     margin-right: 7em;
+}
+
+.values_sekcija1 p{
+    padding-right: 2%;
 }
 
 .values_sekcija1_invert{
@@ -95,7 +97,15 @@ hr.solid {
 
 
 }
+.values_sekcija1 img{
+    width: 100%;
+    height: 240pt;
+}
 
+.values_sekcija1_invert img{
+    width: 100%;
+    height: 240pt;
+}
 .values_sekcija2{
     width: 33%;
     margin-right: 15em;
@@ -110,12 +120,12 @@ hr.solid {
 
 .values_sekcija2 img{
     width: 100%;
-    height: 95%;
+    height: 240pt;
 }
 
 .values_sekcija2_invert img{
     width: 100%;
-    height: 95%;
+    height: 240pt;
 }
 
 .values_h2 {
@@ -126,20 +136,53 @@ hr.solid {
 }
 .values_sekcija:nth-of-type(3) .values_h2{
 
-    padding-top: 1em;
+    padding-top: 1%;
 }
 .values_sekcija p {
     
     color: var(--light-gray04);
 
-    padding-top: 2em;
+    padding-top: 2%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px){
+    .values_sekcija{
+        margin-bottom: 4%;
+    }
+    .values_sekcija1{
+        width: 33%;
+        margin-left: 9%;
+        margin-right: 5%;
+    }
+    .values_sekcija1_invert{
+        width: 33%;
+        margin-right: 9%;
+        margin-left: 5%;
+    }
+    
+    .values_sekcija2{
+        width: 33%;
+        margin-right: 9%;
+        
+    }
+    
+    .values_sekcija2_invert{
+        width: 33%;
+        margin-left: 9%;
+        height: fit-content;
+    }
+}
+@media (max-width: 900px) {
   
     .naslov {
-        margin-left: 12%;
-        margin-right: 12%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .natpis{
+        margin-bottom: 3%;
+    }
+    .banner img{
+        height: 90%;
     }
 
     .values_sekcija{
@@ -165,7 +208,9 @@ hr.solid {
         margin: 0;
         padding: 0;
     }
-    
+    .values img{
+        height: 95%;
+    }
     .values_sekcija2{
         width: 100%;
         margin: 0;
@@ -181,6 +226,9 @@ hr.solid {
         height: 100%;
         order: 1;
     }
+    .values_sekcija{
+        margin-bottom: 3%;
+    }
     .values_sekcija p{
         padding-left: 5%;
         padding-right: 5%;
@@ -191,6 +239,10 @@ hr.solid {
         margin-left: auto;
         margin-right: auto;
         width: 90%;
+    }
+    .values h1{
+        padding-top: 3%;
+        margin-bottom: 1%;
     }
 }
 
@@ -207,11 +259,22 @@ hr.solid {
         width: 90%;
     }
     .naslov {
-        margin-left: 12%;
-        margin-right: 12%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .natpis{
+        margin-bottom: 6%;
+    }
+    .banner img{
+        height: 120pt;
     }
     .values_sekcija{
         flex-direction: column;
+    }
+    .values_sekcija{
+        margin-bottom: 6%;
     }
     .values_sekcija1{
         width: 100%;
@@ -249,5 +312,8 @@ hr.solid {
         height: 100%;
         order: 1;
     }
-
+    .values h1{
+        padding-top: 5%;
+        margin-bottom: 2%;
+    }
 }
