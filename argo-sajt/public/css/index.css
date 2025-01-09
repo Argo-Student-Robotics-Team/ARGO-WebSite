@@ -221,7 +221,7 @@ h1{
     padding-right: 20%;
     padding-top: 1%;
     padding-bottom: 1%;
-    background-image: url("./slike/mars-background.webp");
+    background-image: url("/slike/mars-background.webp");
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 40%;
@@ -299,7 +299,7 @@ h1{
     .banner img{
         width: 20%;
     }
-    
+
     .prva button{
         font-size: 0.7em;
         margin-top: 1%;
@@ -361,7 +361,7 @@ h1{
         padding-right: 5%;
         padding-bottom: 3%;
     }
-    
+
     .vesti-container
     {
         display: flex;
@@ -482,10 +482,10 @@ h1{
     h1 {
         font-size: large;
     }
-    
+
     h2 {
         font-size: medium;
-    } 
+    }
 
     p {
         font-size: small;

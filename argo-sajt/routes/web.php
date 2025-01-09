@@ -32,3 +32,7 @@ Route::get('/partners', function () {
 Route::get('/terms_of_use', function () {
     return view('terms_of_use')->with("title", "Terms of Use");
 });
+
+Route::get('/privacy', function () {
+    return view('privacy')->with("title", "Terms of Use");
+});
