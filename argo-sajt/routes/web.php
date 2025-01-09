@@ -14,5 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index')->with("title", "Home");
+});
+
+Route::get('/about', function () {
+    return view('about_us')->with("title", "About Us");
+});
+
+Route::get('/contact', function () {
+    return view('contact')->with("title", "Contact");
+});
+
+Route::get('/partners', function () {
+    return view('partners')->with("title", "Partners");
+});
+
+Route::get('/terms_of_use', function () {
+    return view('terms_of_use')->with("title", "Terms of Use");
 });
