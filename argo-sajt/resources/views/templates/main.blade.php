@@ -54,19 +54,19 @@
             </div>
             <div class="links">
                 <a href="" class="link">
-                    <img src="{{asset('icons/social/facebook-brands-solid.svg')}}" alt="Facebook" class="icon">
+                    <img src="{{asset('slike/facebook-brands-solid.svg')}}" alt="Facebook" class="icon">
                 </a>
                 <a href="" class="link">
-                    <img src="{{asset('icons/social/square-x-twitter-brands-solid.svg')}}" alt="X" class="icon">
+                    <img src="{{asset('slike/square-x-twitter-brands-solid.svg')}}" alt="X" class="icon">
                 </a>
                 <a href="" class="link">
-                    <img src="{{asset('icons/social/instagram-brands-solid.svg')}}" alt="Instagram" class="icon">
+                    <img src="{{asset('slike/instagram-brands-solid.svg')}}" alt="Instagram" class="icon">
                 </a>
                 <a href="" class="link">
-                    <img src="{{asset('icons/social/youtube-brands-solid.svg')}}" alt="YouTube" class="icon">
+                    <img src="{{asset('slike/youtube-brands-solid.svg')}}" alt="YouTube" class="icon">
                 </a>
                 <a href="" class="link">
-                    <img src="{{asset('icons/social/linkedin-brands-solid.svg')}}" alt="LinkedIn" class="icon">
+                    <img src="{{asset('slike/linkedin-brands-solid.svg')}}" alt="LinkedIn" class="icon">
                 </a>
 
             </div>
