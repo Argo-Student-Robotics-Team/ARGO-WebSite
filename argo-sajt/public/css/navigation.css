@@ -39,3 +39,69 @@
     text-decoration: none;
     font-family: "SF Pro Text";
 }
+
+.hamburger {
+    display: none;
+}
+
+
+@media only screen and (max-width: 775px) {
+
+    .navigation .logo-container {
+        width: 45%;
+    }
+
+    .hamburger {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        align-items: end;
+        gap: 5px;
+    }
+
+    .hamburger span {
+        height: 5px;
+        width: 30px;
+        background: var(--navy);
+        display: block;
+        transition: all ease-in-out 0.3s;
+    }
+
+
+    .hamburger.active span:nth-child(1) {
+        width: 15px;
+        transform: rotate(35deg) translateY(5px) translateX(2px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        width: 35px;
+        transform: translateX(0px);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        width: 15px;
+        transform: rotate(-35deg) translateY(-5px) translateX(2px);
+    }
+
+    .navigation-container {
+        right: -110%;
+        top: 80px;
+        height: calc(100vh - 80px);
+        position: absolute;
+        width: 100%;
+        flex-direction: column;
+        background: #fff;
+        justify-content: start;
+        transition: all ease-in-out 0.3s;
+    }
+
+    .navigation-container.active {
+        right: 0;
+    }
+
+    .navigation-container .nav-item {
+        font-size: 18px;
+    }
+}
