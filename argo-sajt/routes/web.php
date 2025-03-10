@@ -34,5 +34,5 @@ Route::get('/terms_of_use', function () {
 });
 
 Route::get('/privacy', function () {
-    return view('privacy')->with("title", "Terms of Use");
+    return view('privacy')->with("title", "Privacy");
 });
