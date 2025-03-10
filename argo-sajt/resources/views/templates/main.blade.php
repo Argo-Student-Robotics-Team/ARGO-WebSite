@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset("css/global_font.css")}}">
-    <link rel="stylesheet" href="{{asset("css/main.css")}}">
-    <link rel="stylesheet" href="{{asset("css/navigation.css")}}">
-    <link rel="stylesheet" href="{{asset("css/footer.css")}}">
-    <link rel="shortcut icon" href="{{asset("slike/Logo.svg")}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{asset('css/global_font.css')}}">
+    <link rel="stylesheet" href="{{asset('css/main.css')}}">
+    <link rel="stylesheet" href="{{asset('css/navigation.css')}}">
+    <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+    <link rel="shortcut icon" href="{{asset('slike/Logo.svg')}}" type="image/x-icon">
     <title>Argo Student Robotics Team | {{ $title }}</title>
 
     @yield("head")
@@ -16,7 +16,7 @@
 <body>
 <header class="navigation">
     <a class="logo-container" href="/">
-        <img src="{{asset("slike/Document Logo_BLUE.svg")}}" alt="Argo Robotics">
+        <img src="{{asset('slike/Document Logo_BLUE.svg')}}" alt="Argo Robotics">
     </a>
 
     <div class="hamburger">
@@ -41,7 +41,7 @@
 <footer class="footer">
     <div class="left">
         <a class="logo-container" href="/">
-            <img src="{{asset("slike/Document Logo_BLUE.svg")}}" alt="Argo Robotics">
+            <img src="{{asset('slike/Document Logo_BLUE.svg')}}" alt="Argo Robotics">
         </a>
         <div class="info">
             <p class="copyright">© 2024 <br>
