@@ -23,16 +23,23 @@
                     ['id' => 'etf', 'image' => 'Primarni ZZ ETF Engleski.svg', 'name' => 'School of Electrical Engineering'],
                     ['id' => 'raf', 'image' => 'Računarski fakultet.svg', 'name' => 'Faculty of Computing']
                 ],
+                'Silver Sponsors' => [
+                    ['id' => 'openproject', 'image' => 'openproject-logo.svg', 'name' => 'OpenProject']  
+                ],
                 'Bronze Sponsors' => [
-                    ['id' => 'backpack', 'image' => 'backpackflags_flag_225x150_25mm.jpg', 'name' => 'BackPackFlags.com']
+                    ['id' => 'backpack', 'image' => 'backpackflags_flag_225x150_25mm.jpg', 'name' => 'BackPackFlags.com'],
+                    ['id' => 'affinity', 'image' => 'affinity-logo.svg', 'name' => 'Affinity']
                 ],
                 'Friends of the Project' => [
                     ['id' => 'oewf', 'image' => 'OeWF_Logo_(2017).png', 'name' => 'Austrian Space Forum'],
-                    ['id' => 'fondacija', 'image' => 'Evropska svemirska fondacija.svg', 'name' => 'European Space Foundation'],
-                    ['id' => 'osra', 'image' => 'OSRA_logo.svg', 'name' => 'Open Source Robotics Alliance'],
                     ['id' => 'digital', 'image' => 'digital-serbia-initiative-logo.svg', 'name' => 'Digital Serbia Initiative'],
+                    ['id' => 'easyarial', 'image' => 'easy-aerial-logo-black.svg', 'name' => 'Easy Aerial'],
                     ['id' => 'roboto', 'image' => 'ETF Robotics.svg', 'name' => 'ETF Robotics'],
-                    ['id' => 'suma', 'image' => 'SUMA_CRNA.svg', 'name' => 'Student Union of Mathematicians']
+                ],
+                'Media & Event Patrons' => [
+                    ['id' => 'informatika', 'image' => 'informatika-logo.svg', 'name' => 'Informatika'],
+                    ['id' => 'petnica', 'image' => 'petnica-logo.svg', 'name' => 'Research Centre Petnica'],
+                    ['id' => 'ntp', 'image' => 'ntp-logo.svg', 'name' => 'Science Technology Park Belgrade']
                 ],
                 'Honorary Patrons' => [
                     ['id' => 'ubg', 'image' => 'UBG.svg', 'name' => 'University of Belgrade']
