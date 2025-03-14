@@ -37,8 +37,9 @@ hr {
 }
 .partner{
     width: 80%;
+
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
 }
@@ -57,9 +58,6 @@ hr {
 }
 #etf .slika1, #raf .slika1{
     height: 140pt;
-}
-#backpack{
-    width: 25%;
 }
 #backpack .slika1{
     margin-bottom: 1%;
