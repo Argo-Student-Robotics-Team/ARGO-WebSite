@@ -93,30 +93,64 @@ figcaption{
     margin-bottom: 6%;
     margin-top: 2%;
 }
+
+/* PARTNER INSTITUTIONS */
+
 #etf-slika{
     width: 65%;
 }
 #raf-slika{
     width: 40%;
 }
+
+/* SILVER SPONSORS */
+
+#openproject-slika{
+    width: 37%;
+}
+
+/* BRONZE SPONSORS */
+
+#affinity-slika{
+    width: 60%;
+}
+
+/* FRIENDS OF THE PROJECT */
+
 #oewf-slika{
     width: 40%;
-}
-#fondacija-slika{
-    width: 45%;
 }
 #digital-slika{
     width: 50%;
 }
+#easyarial-slika{
+    width: 70%;
+}
 #roboto-slika{
     width: 15%;
 }
-#suma-slika{
-    width: 25%;
+
+/* MEDIA & EVENT PATRONS */
+
+#informatika-slika{
+    width: 30%;
 }
+
+#petnica-slika{
+    width: 30%;
+}
+
+#ntp-slika{
+    width: 70%;
+}
+
+/* HONORARY PATRONS */
+
 #ubg-slika{
     width: 70%;
 }
+
+
 /*.partneri {
     background-color: var(--light-gray05);
     height: fit-content;

@@ -1,7 +1,7 @@
 @extends("templates.main")
 @section("head")
-        <link rel="stylesheet" href="{{asset("css/contact.css")}}">
-        <script src="{{asset("js/contact.js")}}"></script>
+        <link rel="stylesheet" href="{{asset('css/contact.css')}}">
+        <script src="{{asset('js/contact.js')}}"></script>
 @endsection
 @section("page_content")
         <div class="heading">
