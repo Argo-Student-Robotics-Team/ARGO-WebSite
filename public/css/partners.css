@@ -3,11 +3,11 @@
     margin: 0;
 }
 
-
 .uvod{
     padding-left: 6%;
     padding-right: 6%;
 }
+
 hr {
     width: 100%;
     height: 1px;
@@ -15,6 +15,7 @@ hr {
     border: none;
     margin-bottom: 1em;
 }
+
 .dugme{
     background-color: var(--light-blue);
     width: fit-content;
@@ -24,10 +25,12 @@ hr {
     padding: 0.6%;
     border: none;
 }
+
 #margin4{
     margin-bottom: 1%;
     font-weight: 500;
 }
+
 .partneri{
     height: fit-content;
     background-color: var(--light-gray05);
@@ -35,6 +38,7 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
 .partner{
     width: 80%;
 
@@ -43,6 +47,7 @@ hr {
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
 .part{
     display: flex;
     justify-content: space-around;
@@ -53,18 +58,23 @@ hr {
     margin-left: 1.5%;
     flex-wrap: wrap;
 }
+
 #etf, #raf{
     width: 28%;
 }
+
 #etf .slika1, #raf .slika1{
     height: 140pt;
 }
+
 #backpack .slika1{
     margin-bottom: 1%;
 }
+
 #backpack img{
     width: 30%;
 }
+
 .slika1 {
     background-color: white;
     height: 100pt;
@@ -76,17 +86,21 @@ hr {
     box-shadow: 0px 2.5px 4px #8e8e93;
     transition: transform 0.3s ease;
 }
+
 .slika1 img{
     width: 60%;
     transition: transform 0.3s ease;
 }
+
 .slika1:hover img {
     transform: scale(1.30);
 }
+
 figure{
     flex-direction: column wrap;
     text-align: center;
 }
+
 figcaption{
     margin-bottom: 6%;
     margin-top: 2%;
@@ -104,7 +118,7 @@ figcaption{
 /* SILVER SPONSORS */
 
 #openproject-slika{
-    width: 37%;
+    width: 32%;
 }
 
 /* BRONZE SPONSORS */
@@ -258,7 +272,7 @@ figcaption{
     align-items: center;
 }*/
 
-a{
+a {
     text-decoration: none;
 }
 .image-container a {
@@ -279,9 +293,6 @@ a{
 }
 @media (max-width: 1200px) {
     #etf, #raf{
-        width: 30%;
-    }
-    #backpack{
         width: 30%;
     }
     .part{
