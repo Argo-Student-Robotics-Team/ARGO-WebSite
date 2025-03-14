@@ -24,7 +24,7 @@
                     ['id' => 'raf', 'image' => 'Računarski fakultet.svg', 'name' => 'Faculty of Computing']
                 ],
                 'Silver Sponsors' => [
-                    ['id' => 'openproject', 'image' => 'openproject-logo-centered-color.svg', 'name' => 'OpenProject']  
+                    ['id' => 'openproject', 'image' => 'openproject-logo.svg', 'name' => 'OpenProject']  
                 ],
                 'Bronze Sponsors' => [
                     ['id' => 'backpack', 'image' => 'backpackflags_flag_225x150_25mm.jpg', 'name' => 'BackPackFlags.com'],
