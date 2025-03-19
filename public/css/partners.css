@@ -3,11 +3,11 @@
     margin: 0;
 }
 
-
 .uvod{
     padding-left: 6%;
     padding-right: 6%;
 }
+
 hr {
     width: 100%;
     height: 1px;
@@ -15,6 +15,7 @@ hr {
     border: none;
     margin-bottom: 1em;
 }
+
 .dugme{
     background-color: var(--light-blue);
     width: fit-content;
@@ -24,10 +25,12 @@ hr {
     padding: 0.6%;
     border: none;
 }
+
 #margin4{
     margin-bottom: 1%;
     font-weight: 500;
 }
+
 .partneri{
     height: fit-content;
     background-color: var(--light-gray05);
@@ -35,6 +38,7 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
 .partner{
     width: 80%;
 
@@ -43,6 +47,7 @@ hr {
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
 .part{
     display: flex;
     justify-content: space-around;
@@ -53,18 +58,23 @@ hr {
     margin-left: 1.5%;
     flex-wrap: wrap;
 }
+
 #etf, #raf{
     width: 28%;
 }
+
 #etf .slika1, #raf .slika1{
     height: 140pt;
 }
+
 #backpack .slika1{
     margin-bottom: 1%;
 }
+
 #backpack img{
     width: 30%;
 }
+
 .slika1 {
     background-color: white;
     height: 100pt;
@@ -76,17 +86,21 @@ hr {
     box-shadow: 0px 2.5px 4px #8e8e93;
     transition: transform 0.3s ease;
 }
+
 .slika1 img{
     width: 60%;
     transition: transform 0.3s ease;
 }
+
 .slika1:hover img {
     transform: scale(1.30);
 }
+
 figure{
     flex-direction: column wrap;
     text-align: center;
 }
+
 figcaption{
     margin-bottom: 6%;
     margin-top: 2%;
@@ -104,7 +118,7 @@ figcaption{
 /* SILVER SPONSORS */
 
 #openproject-slika{
-    width: 37%;
+    width: 32%;
 }
 
 /* BRONZE SPONSORS */
@@ -148,117 +162,7 @@ figcaption{
     width: 70%;
 }
 
-
-/*.partneri {
-    background-color: var(--light-gray05);
-    height: fit-content;
-    padding-top: 1em;
-    width: 100%;
-    min-height: fit-content;
-}
-.partner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
-    width: 100%;
-    background-color: blue;
-}
-.part {
-    object-fit: contain;
-    margin-right: 3%;
-    margin-bottom: 3%;
-    width: 25%;
-    min-height: 170pt;
-    display: flex;
-    background-color: red;
-    flex-wrap: wrap;
-}
-figcaption{
-    text-align: center;
-}
-#etf {
-    flex-flow: column wrap;
-    align-content: flex-end;
-}
-#raf{
-    flex-flow: column wrap;
-    align-content: flex-start;
-}
-#backpack{
-    flex-flow: column wrap;
-    align-content: center;
-}
-#oewf{
-    flex-flow: column wrap;
-    align-content: flex-start;
-    margin-left: 3%;
-    width: 25%;
-}
-#fondacija{
-    flex-flow: column wrap;
-    align-content: flex-start;
-}
-#osra{
-    flex-flow: column wrap;
-    align-content: flex-start;
-}
-#digital{
-    flex-flow: column wrap;
-    align-content: flex-start;
-}
-#osra-slika{
-    width: 50%;
-}
-#etf-slika{
-    width: 60%;
-}
-#raf-slika{
-    width: 40%;
-}
-#backpack-slika{
-    width: 35%;
-}
-#oewf-slika{
-    width: 40%;
-}
-#fondacija-slika{
-    width: 50%;
-}
-#digital-slika{
-    width: 50%;
-}
-#back{
-    height: 80%;
-    width: 50%;
-    margin-bottom: 1%;
-}
-#partneri1{
-    flex-wrap: wrap;
-}
-.slika1{
-    margin-bottom: 1%;
-    background-color: white;
-    border-radius: 16px;
-    width: 30%;
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.slika{
-    background-color: white;
-    border-radius: 16px;
-    width: 240pt;
-    min-height:120pt;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-
-a{
+a {
     text-decoration: none;
 }
 .image-container a {
@@ -281,9 +185,6 @@ a{
     #etf, #raf{
         width: 30%;
     }
-    #backpack{
-        width: 30%;
-    }
     .part{
         width: 25%;
     }
@@ -301,9 +202,6 @@ a{
     #etf, #raf{
         width: 38%;
     }
-    #backpack{
-        width: 34%;
-    }
     .part{
         width: 30%;
     }
@@ -317,9 +215,6 @@ a{
     .part{
         width: 50%;
         flex-wrap: wrap;
-    }
-    #backpack{
-        width: 55%;
     }
     .slika1{
         min-width: 90%;
