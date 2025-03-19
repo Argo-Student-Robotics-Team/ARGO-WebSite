@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.celina {
+    padding-left:9%;
+    padding-right: 9%;
+}
+
+ul{
+    padding-left: 3%;
+}
