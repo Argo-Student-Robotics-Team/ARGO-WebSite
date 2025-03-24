@@ -21,7 +21,6 @@
             $partners = [
                 'Partner Institutions' => [
                     ['id' => 'etf', 'image' => 'Primarni ZZ ETF Engleski.svg', 'name' => 'School of Electrical Engineering'],
-                    ['id' => 'raf', 'image' => 'Računarski fakultet.svg', 'name' => 'Faculty of Computing']
                 ],
                 'Silver Sponsors' => [
                     ['id' => 'openproject', 'image' => 'openproject-logo.svg', 'name' => 'OpenProject']  
