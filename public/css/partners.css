@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.uvod{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(197, 197, 197);
+    border: none;
+    margin-bottom: 1em;
+}
+
+.dugme{
+    background-color: var(--light-blue);
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    cursor: pointer;
+    padding: 0.6%;
+    border: none;
+}
+
+#margin4{
+    margin-bottom: 1%;
+    font-weight: 500;
+}
+
+.partneri{
+    height: fit-content;
+    background-color: var(--light-gray05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner{
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 20%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    flex-wrap: wrap;
+}
+
+#etf, #raf{
+    width: 28%;
+}
+
+#etf .slika1, #raf .slika1{
+    height: 140pt;
+}
+
+#backpack .slika1{
+    margin-bottom: 1%;
+}
+
+#backpack img{
+    width: 30%;
+}
+
+.slika1 {
+    background-color: white;
+    height: 100pt;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    box-shadow: 0px 2.5px 4px #8e8e93;
+    transition: transform 0.3s ease;
+}
+
+.slika1 img{
+    width: 60%;
+    transition: transform 0.3s ease;
+}
+
+.slika1:hover img {
+    transform: scale(1.30);
+}
+
+figure{
+    flex-direction: column wrap;
+    text-align: center;
+}
+
+figcaption{
+    margin-bottom: 6%;
+    margin-top: 2%;
+}
+
+/* PARTNER INSTITUTIONS */
+
+#etf-slika{
+    width: 65%;
+}
+#raf-slika{
+    width: 40%;
+}
+
+/* SILVER SPONSORS */
+
+#openproject-slika{
+    width: 32%;
+}
+
+/* BRONZE SPONSORS */
+
+#affinity-slika{
+    width: 60%;
+}
+
+/* FRIENDS OF THE PROJECT */
+
+#oewf-slika{
+    width: 40%;
+}
+#digital-slika{
+    width: 50%;
+}
+#easyarial-slika{
+    width: 70%;
+}
+#roboto-slika{
+    width: 15%;
+}
+
+/* MEDIA & EVENT PATRONS */
+
+#informatika-slika{
+    width: 30%;
+}
+
+#petnica-slika{
+    width: 30%;
+}
+
+#ntp-slika{
+    width: 70%;
+}
+
+/* HONORARY PATRONS */
+
+#ubg-slika{
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+.image-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.image-container img {
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 1200px) {
+    #etf, #raf{
+        width: 30%;
+    }
+    .part{
+        width: 25%;
+    }
+    .slika1{
+        min-width: 90%;
+    }
+    .partner{
+        width: 100%;
+    }
+    .dugme{
+        padding: 1%;
+    }
+}
+@media(max-width: 900px){
+    #etf, #raf{
+        width: 38%;
+    }
+    .part{
+        width: 30%;
+    }
+}
+@media(max-width: 800px){
+    .part{
+        width: 35%;
+    }
+}
+@media (max-width: 700px) {
+    .part{
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    .slika1{
+        min-width: 90%;
+    }
+    #etf, #raf{
+        width: 60%;
+    }
+    .dugme{
+        padding: 1.5%;
+    }
+    #margin4{
+        margin-bottom: 5%;
+    }
+}
+
