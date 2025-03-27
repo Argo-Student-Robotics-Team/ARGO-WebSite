@@ -104,20 +104,20 @@
                 <div class="part" id="etf">
                     <img src="{{ asset('slike/Primarni ZZ ETF Engleski.svg') }}" alt="ETF Partner">
                 </div>
-                <div class="part" id="raf">
-                    <img src="{{ asset('slike/Računarski fakultet.svg') }}" alt="RAF Partner">
-                </div>
             </div>
             <div class="partner" id="partneri1">
                 @php
                     $partners = [
+                        'openproject' => 'openproject-logo.svg',
                         'backpack' => 'backpackflags_flag_225x150_25mm.jpg',
+                        'affinity' => 'affinity-logo.svg',
                         'owf' => 'OeWF_Logo_(2017).png',
-                        'europe-space' => 'Evropska svemirska fondacija.svg',
-                        'osra' => 'OSRA_logo.svg',
                         'digital' => 'digital-serbia-initiative-logo.svg',
+                        'easyaerial' => 'easy-aerial-logo-black.svg',
                         'robotics' => 'ETF Robotics.svg',
-                        'suma' => 'SUMA_CRNA.svg'
+                        'informatika' => 'informatika-logo-full.svg',
+                        'petnica' => 'petnica-logo.svg',
+                        'ntp' => 'ntp-logo.svg'
                     ];
                 @endphp
 
