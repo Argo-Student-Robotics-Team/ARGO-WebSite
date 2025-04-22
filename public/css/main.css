@@ -4,6 +4,13 @@
     top: 80px;
 }
 
+.footer .links a:hover {
+    color: var(--light-blue);
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+
+
 
 @media (max-width: 480px) {
     .footer {
@@ -27,7 +34,7 @@
 
     .footer .right .links {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center; 
     }
 
     .footer .right .links .link img {
