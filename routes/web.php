@@ -29,7 +29,7 @@ Route::get('/partners', function () {
     return view('partners')->with("title", "Partners");
 });
 
-Route::redirect('/terms_of_use', '/terms-of-use', 301);
+Route::permanentRedirect('/terms_of_use', '/terms-of-use');
 
 Route::get('/terms-of-use', function () {
     return view('terms_of_use')->with("title", "Terms of Use");
