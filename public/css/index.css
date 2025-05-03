@@ -8,10 +8,6 @@
     --navy: #0e2439;
 }
 
-h1{
-    /* font-size: 1.5vw;
-    font-weight: 500; */
-}
 .banner{
     background-color: black;
     height: fit-content;
@@ -63,9 +59,7 @@ h1{
     padding-right: 35%;
     margin-bottom: 2vh;
 }
-.content{
 
-}
 .who{
     padding-left: 20%;
     padding-right: 20%;
@@ -279,6 +273,9 @@ h1{
     margin-bottom: 5%;
 }
 
+.footer{
+    top: 160px;
+}
 
 @media (max-width: 768px) {
     *{
@@ -490,10 +487,7 @@ h1{
     p {
         font-size: small;
     }
-    .banner img{
-        /* height: 10vh;
-        width: 10vh; */
-    }
+
     .who{
         padding-left: 5%;
         padding-right: 5%;
