@@ -139,7 +139,7 @@
                         Your unique skillset can help redefine what students can do.
                     </p>
                     <a href="https://forms.gle/JU4MhyhYA4cqPps27">
-                        <button class="join-us caption2Bold">
+                        <button class="join-us captiofon2Bold">
                             JOIN US
                         </button>
                     </a>

@@ -1,5 +1,5 @@
 .footer {
-    top: 160px;
+    /* top: 160px; */
     height: 170px;
     padding: 35px 48px;
     display: flex;
@@ -84,13 +84,21 @@
     height: 100%;
 }
 
+
+.footer .links a:hover {
+    color: var(--light-blue);
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+
+
 @media only screen and (max-width: 1000px) {
     .footer .logo-container {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 775px) {
+@media only screen and (min-width: 480px) and (max-width: 1050px){
     .footer {
         height: 390px;
         flex-direction: column;
@@ -107,6 +115,7 @@
     .footer .links{
         width: 100%;
         padding: 0;
+        text-align: center;
     }
 
     .footer .right {
@@ -118,5 +127,73 @@
 
     .footer .right .links {
         justify-content: center;
+    }
+
+    .right .header p{
+        padding-top: 10px;
+        justify-self: center;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .footer {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* padding-top: 25px !important; */
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .footer .left,
+    .footer .right {
+        width: 100%; 
+        align-items: center;
+    }
+    .footer .right .links {
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .footer .left .links,
+    .footer .left .info{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        padding: 5px 0 0 0;
+    }
+
+    .footer .right .links .link img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .footer .left .info p,
+    .footer .left .links a {
+        font-size: 14px;
+    }
+    
+    .footer .left {
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .footer .right {
+        padding-top: 105px;
+        margin: auto;
+    }
+
+    .footer .right .header{
+        margin-top: 10px;
+    }
+    
+    .footer .right .links {
+        margin-bottom: 10px;
+    }
+
+    .right .header p{
+        padding-top: 10px;
+        justify-self: center;
     }
 }
