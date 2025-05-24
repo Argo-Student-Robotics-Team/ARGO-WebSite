@@ -8,5 +8,4 @@ The development must follow the design which is present on Figma.
 ## Contributors
 - Luka Mihailović (Lead Maintainer)
 - Hristina Boharev
-- Petar Nikolić
 - Stefan Crkvenjakov
